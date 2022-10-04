@@ -28,6 +28,15 @@ SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
 
 ## Quels headers recevez vous dans la response ? Quels sont leur sens ?
 
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/plain; charset=UTF-8
+Vary: Accept-Encoding
+X-Request-Id: e125ab29-37c4-43fc-9f36-292fbf1016b2
+X-Token-Id: 6f594809-a4b4-483e-841b-0c3b0a00edfe
+Cache-Control: no-cache, private
+Date: Tue, 04 Oct 2022 15:38:09 GMT
+
 
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
 
