@@ -24,7 +24,9 @@ curl -v
 
 
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
-curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -X "kjfldsjfl"
+
+
+curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -X POST -d "option=valeur&champs=autrevaleur" -H "Content-Type: text/plain"
 
 
 <html>
@@ -37,6 +39,8 @@ curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -X "kjfldsjfl"
 
 
 ## Faire un appel curl en envoyant du JSON (avec les bons headers) : copier la commande exécutée et indiquer la requête et la réponse
+
+curl -d '{"option": "value", "queqluechose": "autrevaleur"}' -H "text/plain" -X POST https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe
 
 
 ## Faire une appel curl en envoyant une basic authentication en utilisant 2 méthodes différentes : copier les commandes exécutées et indiquer la requête et la réponse à chaque fois 
