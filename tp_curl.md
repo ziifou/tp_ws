@@ -9,6 +9,7 @@ Pour tous les appels vous devez ajouter un header pour identifier votre appel pa
 
 ## Quel est la version du protocole utilisé par le serveur ?
 
+curl -v 
 
 ## Quels sont les headers que l'on envoie dans la requête ? Quels sont leur sens ?
 
@@ -23,6 +24,16 @@ Pour tous les appels vous devez ajouter un header pour identifier votre appel pa
 
 
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
+curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -X "kjfldsjfl"
+
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
 
 
 ## Faire un appel curl en envoyant du JSON (avec les bons headers) : copier la commande exécutée et indiquer la requête et la réponse
